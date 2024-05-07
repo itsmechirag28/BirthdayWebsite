@@ -92,7 +92,8 @@ svg{
     margin-left:-95px;
 }
 .frame3 img{
-    margin-left:-290px;
+    margin-left:-95px;
+    margin-right:10px;
 }
 .frames{
     width:1500px;
@@ -106,6 +107,7 @@ svg{
     padding:100px;    
     border-radius:150px;
     line-height:1.5;
+    overflow:hidden;
 }
 .frames p{
     padding-left: 10px;
