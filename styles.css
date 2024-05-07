@@ -79,22 +79,24 @@ svg{
     padding-top: 200px;
 }
 .sec{
-    height:3000px;
+    height:3500px;
     background:url(BirthdayBackground.jpg);
     background-size:cover;
 }
 .frames img{
-    width:200px;
-    height:200px;
+    width:258px;
+    height:258px;
     border-radius: 50%;
     box-shadow:0 5px 10px rgba(0, 0, 0, 0.5);
+    object-fit:cover;
+    margin-left:-95px;
 }
 .frame3 img{
-    margin-left:-180px;
+    margin-left:-290px;
 }
 .frames{
     width:1500px;
-    height:220px;
+    height:265px;
     box-shadow:0 5px 10px rgba(255,255,255,0.5);
     display : flex;
     align-items: center;
@@ -102,7 +104,8 @@ svg{
     background-color:rgb(158, 210, 210);
     margin-bottom: 20px;
     padding:100px;    
-    border-radius:10px;
+    border-radius:150px;
+    line-height:1.5;
 }
 .frames p{
     padding-left: 10px;
@@ -168,4 +171,7 @@ svg{
     font-size:1.5rem;
     font-weight:bold;
     margin-top:20px;
+}
+.suyash-card{
+    margin-top:-500px;
 }
