@@ -92,6 +92,7 @@ svg{
     margin-left:-95px;
 }
 .frame3 img{
+    object-fit:cover;
     margin-left:-95px;
     margin-right:10px;
 }
@@ -121,6 +122,10 @@ svg{
     height:270px;
     margin-top:50px;
     border-radius:10px;
+    object-fit:cover;
+}
+.card .parth img{
+    height:300px;
     object-fit:cover;
 }
 .sec2{
